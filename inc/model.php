@@ -19,7 +19,7 @@ class rna_database{
 		} catch(Exception $e)
 		{
 			echo"Could not query the database.";
-			
+			exit;
 		}
 	$mirnas = $results->fetchAll(PDO::FETCH_ASSOC);
 	return $mirnas;
