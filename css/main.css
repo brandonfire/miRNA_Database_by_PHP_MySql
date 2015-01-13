@@ -1,0 +1,296 @@
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding:0 5%;
+}
+
+#logo {
+  text-align: center;
+  margin: 0; 
+
+}
+/* link color */
+a {
+  color:#6ab47b;
+}
+
+img {
+  max-width: 100%
+}
+
+/* green header*/
+header {
+  padding: 10px 0 0 0;
+  background: #6ab47b;
+  border-color:#599a68;
+}
+header {
+	float: left;
+	margin: 0 0 30px 0;
+	padding: 5px 0 0 0;
+	width: 100%;
+}
+h1, h2 {
+  color:#fff;
+}
+
+h1 {
+  font-family: 'Changa One', sans-serif;
+  margin: 5px 0;
+  font-size: 1.5em;
+  font-weight: normal;
+  line-height: 1.8em;/* for paragarph space*/
+}
+
+h2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.25em; 
+  margin: 5px 0 0;
+  font-weight: normal;
+}
+
+nav {
+  text-align: center;
+  padding: 0px 30px 0px 0;
+  margin: 20px 0 0;
+}
+
+footer{
+  font-size: 0.74em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #555;
+}
+.social {
+	width:20px;
+	height:20px;
+	margin:0 5px;
+}
+
+#ga {
+  margin:0;
+  padding: 0;
+  list-style:none;
+}
+
+#ga li {
+  float: left;
+  width:45%;
+  margin:2.5%;
+  background-color:#f5f5f5;
+  color: #bdc3c7;
+  
+}
+
+#ga li a p {
+  margin: 0;
+  padding:5%;
+  font-size:0.75em;
+  color: #000000;
+}
+
+
+h1:hover, h2:hover {
+  color:#32623f;
+}
+
+/* nav background for mobile */
+nav {
+  background:#599a68;
+}
+
+nav a, nav a:visited {
+  color:#fff;
+}
+
+nav a.ss, nav a:hover {
+  color:#32623f;
+}
+nav {
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0 0;
+
+}
+
+nav ul {
+	list-style:none;
+	margin:0 10px;
+	padding:0;
+}
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	font-weight:800;
+	padding: 15px 10px;
+}
+
+body { /* site body */
+  background-color:#fff;
+  color:#888;
+}
+/* PAGE: About */
+.profile-photo {
+	display: block;  /*use block could enable auto to center element image default inline*/
+	max-width: 150px;
+	margin: 0 auto 30px; /*margin 3 numbers: top, leftright, bottom*/
+	border-radius: 100%
+
+}
+h3 {
+	margin:0 0 1em 0;
+}
+/* PAGE: contact */
+.contact-info {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 0.9em;
+}
+.contact-info a {
+	display: block;
+	min-height:20px;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	padding:0 0 0 30px;
+	margin: 0 0 10px;
+}
+
+.contact-info li.phone a {
+	background-image: url('../img/phone.png');
+}
+.contact-info li.mail a {
+	background-image: url('../img/mail.png');
+}
+.mirna {
+	color: #000;
+	display: block;
+	text-align: left;
+
+}
+.mirnalist {
+	color:darkgreen;
+	text-align: left;
+	float: left;
+	text-decoration:underline;
+}
+
+element.style {
+text-align: left;
+vertical-align: top;
+}
+.table-stats.table-bordered {
+
+}
+.table-stats {
+border: 1px solid #C2C2C2;
+border-collapse: separate;
+-webkit-border-radius: 0;
+-moz-border-radius: 0;
+border-radius: 0 !important;
+font-family: verdana,helvetica,arial,sans-serif;
+font-size: 11px;
+color: #333;
+}
+.table-bordered {
+border: 1px solid #dddddd;
+
+border-collapse: separate;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+}
+.table {
+width: 100%;
+margin-bottom: 18px;
+}
+
+
+td {
+text-align: left;
+vertical-align: top;
+}
+
+
+
+table {
+display: table;
+border-collapse: separate;
+border-spacing: 2px;
+border-color: gray;
+}
+table {
+max-width: 100%;
+border-collapse: collapse;
+border-spacing: 0;
+background-color: transparent;
+}
+table
+{
+text-align: center;
+background: #EEEEEE;
+margin-right: auto;
+margin-left: auto;
+}
+table {
+display: table;
+border-collapse: separate;
+border-spacing: 2px;
+border-color: gray;
+}
+table {
+max-width: 100%;
+border-collapse: collapse;
+border-spacing: 0;
+background-color: transparent;
+}
+
+table {
+display: table;
+border-collapse: separate;
+border-spacing: 2px;
+border-color: gray;
+}
+
+table {
+border-spacing: 4px;
+}
+table {
+max-width: 100%;
+border-collapse: collapse;
+border-spacing: 0;
+background-color: transparent;
+}
+.pagination {
+text-align: right;
+margin: 1em 0;
+}
+div {
+display: block;
+}
+.pagination span {
+background: #CCC;
+border-color: #999;
+color: #444;
+}
+.pagination a, .pagination span {
+padding: 0px 5px;
+border: 1px solid #e3e1e0;
+display: inline-block;
+text-decoration: none;
+color: #676767;
+}
+

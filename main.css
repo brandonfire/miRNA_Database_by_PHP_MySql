@@ -1,0 +1,60 @@
+
+/* 
+    Created on : Dec 17, 2014, 5:34:35 PM
+    Author     : chengbin
+*/
+
+body {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 1em;
+    padding: 50px;
+    color: #555;
+}
+
+h1 {
+    text-align: left;
+    letter-spacing: 2px;
+    font-size: 1.1em;
+    color: #be7429;
+    font-weight: normal;
+    width: 650px;
+}
+
+table {
+    width: 650px;
+    padding: 10px;
+    background-color: #c5e7e0;
+}
+
+th {
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid;
+}
+
+td {
+    padding: 10px;
+}
+
+a:link {
+   color: #be7429;
+   font-weight: normal;
+   text-decoration: none;
+}
+
+a:link:hover {
+   color: #be7429;
+   font-weight: normal;
+   text-decoration: underline;
+}
+.wwww {
+
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+footer {
+
+  max-width: 940px;
+  margin: 0 auto;
+}
