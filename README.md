@@ -4,6 +4,6 @@ Hi, Welecome to my first version of PHP/MySql database management Web applicatio
 The inc/model.php contains rna_database class code of database management.
 
 for web access, please visit 
-echo '<a href = "http ://www.cbhuatusf.com/MRCD/"> MRCD database</a>';
+'<a href = "http://www.cbhuatusf.com/MRCD/"> MRCD database</a>';
 
 Thank you.
