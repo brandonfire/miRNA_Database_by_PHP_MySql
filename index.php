@@ -1,23 +1,12 @@
-<?php require_once("inc/config.php"); ?>
+<?php require_once("inc/config.php"); 
+$pageTitle = "MRCD Database";
+include (ROOT_PATH."inc/header.php");
 
-<!DOCTYPE html>
-<html>
-  <head>
-   
-    <meta charset="utf-8">
-    <title>Structure Based Drug Design</title>
-	<meta name="viewport" content = "width=device-width, intitial-scale=1.0">
-    <link rel="stylesheet" href="<?php echo WEB_ROOT; ?>css/normalize.css">
-    <link href='http://fonts.googleapis.com/css?family=Lato|Changa+One:400,400italic|Open+Sans:400,700' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="<?php echo WEB_ROOT; ?>main.css">
-	
-    
-
-  </head>
+ ?>
+<link rel="stylesheet" href="/MRCD/main.css">
   <body>
 	<div class="wwww">
-        <h1>Welcome to miRNA
-&nbsp;of Cancer Database(MRCD) demo version 0.11</h1>
+      
         <table border="0">
             <thead>
                 <tr>
@@ -39,21 +28,25 @@
                              <option value = "liver">Liver</option>
                              <option value = "blood">Blood</option>
                              <option value = "breast">Breast</option>
+			                       <option value = "stomach">Stomach</option>
+			                       <option value = "ovary">Ovary</option>
+                             <option value = "prostate">Prostate</option>
                           </select>
-
+                          <br>
+                          <br>
+                          <strong>Cancer Effect</strong>
+                          <br>
+                          <input type="radio" name="onc" value="" checked>All
+                          <br>
+                          <input type="radio" name="onc" value="oncogenic">Oncogenic
+                          <br>
+                          <input type="radio" name="onc" value="tumor-suppressive">Tumor-Suppressive
+                          <br>
                           <input type="submit" value="Submit">
                       </form>
-		                </th>
-			
+		    </th>
                 </tr>
-
             </tbody>
         </table>
 	</div>
-	<footer>
-           <p>&copy; <script type="text/javascript"> var d = new Date();
-			document.write(d.getFullYear());
-		</script> Chengbin Hu</p>
-    </footer>
-  </body>
-</html>
+	<?php include (ROOT_PATH."inc/footer.php"); ?>
